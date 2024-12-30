@@ -994,7 +994,7 @@ body {
   position: absolute;
   animation: blooming-flower 4s backwards;
  
-  bottom: 20px;
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.7);
