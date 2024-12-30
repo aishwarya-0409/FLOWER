@@ -1006,6 +1006,21 @@ body {
   text-align: center;
 }
 
+/* Media Queries for Mobile and Small Devices */
+@media only screen and (max-width: 768px) {
+  .message {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+    top: 10px; /* Adjust position slightly */
+  }
+}
 
+@media only screen and (max-width: 480px) {
+  .message {
+    font-size: 14px; /* Smaller font size for very small screens */
+    padding: 6px 12px; /* Even smaller padding for smaller devices */
+    top: 5px; /* Adjust position further if needed */
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
